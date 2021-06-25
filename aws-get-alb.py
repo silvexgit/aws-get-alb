@@ -50,6 +50,10 @@ for x in range(len(argv)):
 		my_ec2_ids.remove(argv[x])
 		print("Removed invalid EC2 Id: {}".format(argv[x]))
 	y+=1
+	
+if (len(my_ec2_ids) ==  0):
+        print("Not valid EC2 Id found!")
+        exit(1)
 
 for i in range(my_tg):
 
