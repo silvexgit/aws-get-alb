@@ -23,8 +23,11 @@ import botocore
 import getopt
 import sys
 
+#
+# Assing non-duplicate EC2s Id
+#
+argv  = list(set(sys.argv[1:]))
 my_ec2_ids = sys.argv[1:]
-argv = sys.argv[1:]
 
 if (len(my_ec2_ids) < 1 ):
 
