@@ -4,6 +4,8 @@
 # Version 1.0
 # June 21, 2021
 #
+# Use at your own risk and is provided As-Is without any kind of warranties. 
+#
 # This script prints out all target groups the
 # provided EC2 belongs to. The scripts takes a single
 # or many EC2s. It will first verify that the EC2s exists
