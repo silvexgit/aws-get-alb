@@ -24,7 +24,7 @@ import getopt
 import sys
 
 #
-# Assing non-duplicate EC2s Id
+# Assesing non-duplicate EC2s Id
 #
 argv  = list(set(sys.argv[1:]))
 my_ec2_ids = list(set(sys.argv[1:]))
